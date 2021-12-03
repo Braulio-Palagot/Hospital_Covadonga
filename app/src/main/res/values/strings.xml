@@ -17,6 +17,7 @@
     <string name="no_account_yet">¿Aún no estás registrado?</string>
     <string name="accept_terms">Acepto la <i>Política de Privacidad</i></string>
     <string name="register">Registrarse</string>
+    <string name="log_out">Cerrar Sesión</string>
 
     <string name="personal_data">Datos Personales</string>
     <string name="user_name">Nombre</string>

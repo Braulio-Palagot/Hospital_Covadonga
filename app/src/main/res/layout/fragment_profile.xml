@@ -70,79 +70,88 @@
                         <ImageButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_message"
-                            android:backgroundTint="@android:color/transparent"/>
+                            android:backgroundTint="@android:color/transparent"
+                            android:src="@drawable/ic_message" />
 
                         <ImageButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_phone"
-                            android:backgroundTint="@android:color/transparent"/>
+                            android:backgroundTint="@android:color/transparent"
+                            android:src="@drawable/ic_phone" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtDirection"
-                        style="@style/BaseOutlinedTextInput"
-                        android:hint="@string/user_direction"
-                        android:visibility="gone">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtDirection"
+                style="@style/BaseOutlinedTextInput"
+                android:hint="@string/user_direction"
+                android:visibility="gone">
 
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:clickable="true"
-                            android:focusable="false"
-                            android:inputType="none|time"
-                            android:maxLines="5"
-                            android:text="Calle Vicente Guerrero Privada Divina Providencia, Peñuela, Ver." />
-                    </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="none|time"
+                    android:maxLines="5"
+                    android:text="Calle Vicente Guerrero Privada Divina Providencia, Peñuela, Ver." />
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtMail"
-                        style="@style/BaseOutlinedTextInput"
-                        android:hint="@string/mail">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtMail"
+                style="@style/BaseOutlinedTextInput"
+                android:hint="@string/mail">
 
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:clickable="true"
-                            android:focusable="false"
-                            android:inputType="none|time"
-                            android:maxLines="5"
-                            android:text="clauxgrl@gmail.com" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="none|time"
+                    android:maxLines="5"
+                    android:text="clauxgrl@gmail.com" />
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtCellphone"
-                        style="@style/BaseOutlinedTextInput"
-                        android:hint="@string/user_cellphone">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtCellphone"
+                style="@style/BaseOutlinedTextInput"
+                android:hint="@string/user_cellphone">
 
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:clickable="true"
-                            android:focusable="false"
-                            android:inputType="none|time"
-                            android:maxLines="5"
-                            android:text="271 315 4800" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="none|time"
+                    android:maxLines="5"
+                    android:text="271 315 4800" />
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/txtPhone"
-                        style="@style/BaseOutlinedTextInput"
-                        android:hint="@string/user_cellphone"
-                        android:visibility="gone">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtPhone"
+                style="@style/BaseOutlinedTextInput"
+                android:hint="@string/user_cellphone"
+                android:visibility="gone">
 
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:clickable="true"
-                            android:focusable="false"
-                            android:inputType="none|time"
-                            android:maxLines="5"
-                            android:text="271 189 3456" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="none|time"
+                    android:maxLines="5"
+                    android:text="271 189 3456" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bttnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_out"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 
@@ -150,14 +159,14 @@
         android:id="@+id/fabEmergencyCall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
         android:elevation="11dp"
         android:src="@drawable/ic_edit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
         app:fabCustomSize="70dp"
         app:fabSize="auto"
-        app:maxImageSize="40dp"
-        android:visibility="gone"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="40dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
