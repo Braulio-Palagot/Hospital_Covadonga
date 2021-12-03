@@ -2,23 +2,22 @@
 Proyecto del Track Covadonga para el Hackathon Orizaba 2021
 <h3 align="center">Aplicacion del equipo Gaia XD</h3>
 
-<div align="center">
- 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
- 
-</div>
-
 ---
 <p align="center">
   Codigo de aplicacion usando Android Estudio con Kotlin
 </p>
 
+
 ## Hola a todos! 🐱
-### Estas listo para comenzar tu viaje en GitHub? :octocat:
-En este repositorio podras encontrar todo lo necesario para poder empezar tu camino en el mundo de la colaboración en equipo para proyectos 👨‍💻👩‍💻
+### Un poco de nuestro proyecto:
+En este repositorio podras encontrar todo con respecto a la aplicación desarrollada para el manejo .....
+
+
+## Propuesta de valor 💻
+Es el sistema de control de versiones que te permitira observar, controlar y modificar las versiones de cada uno de tus proyectos. Si en un futuro tu codigo se rompio o surgio algun problema en el proyecto, Git te permitira regresar a una version estable de tu proyecto. Fue creado por el unico e inigualable Linus Torvalds 🤓
 
 ---
-## Git 💻
+## Unas imagenes 💻
 Es el sistema de control de versiones que te permitira observar, controlar y modificar las versiones de cada uno de tus proyectos. Si en un futuro tu codigo se rompio o surgio algun problema en el proyecto, Git te permitira regresar a una version estable de tu proyecto. Fue creado por el unico e inigualable Linus Torvalds 🤓
 
 ## GitHub :octocat:
