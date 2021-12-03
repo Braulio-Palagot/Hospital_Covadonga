@@ -13,24 +13,34 @@ Aplicación diseñada con la finalidad de agilizar procesos de atención a pacie
 La interfaz gráfica de usuario se diseñó teniendo como prioridad la intuitividad para reducir la curva de aprendizaje de los pacientes que la utilizarán. De igual forma se estableció el sistema operativo Android 8.0 Oreo (API 26) cómo versión mínima para abarcar un 82.7% de usuarios de Android según los últimos datos reportados en la web de Android Developers.
 
 ### Flujo de acción de la aplicación
-La primera pantalla nos mostrará las opciones de iniciar sesió para revisar nuestro expediente de citas o de agendar una cita espontánea sin registrarse en la aplicación. Además nos muestra un botón de llamada de emergencia en caso de que se sucite una situación de emergencia y se requiera contactar rápidamente al hospital.
-<img src="https://photos.app.goo.gl/87wmUJm2MJxQjsz16"/>
+La primera pantalla nos mostrará las opciones de iniciar sesió para revisar nuestro expediente de citas o de agendar una cita espontánea sin registrarse en la aplicación. Además nos muestra un botón de llamada de emergencia en caso de que se sucite una situación de emergencia y se requiera contactar rápidamente al hospital.<br/>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/Screenshot_20211203-104929.png" width="250px"/>
+</div>
 
 
-En caso de generar una cita espontánea, se deberán registrar todos los datos necesarios del paciente y seleccionar el área de atención, la fecha y la hora.
-<img src="https://photos.app.goo.gl/kRbuehFem13Vy9YK9"/>
+En caso de generar una cita espontánea, se deberán registrar todos los datos necesarios del paciente y seleccionar el área de atención, la fecha y la hora.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/Screenshot_20211203-104937.png" width="250px"/>
+</div>
 
 
-En caso de iniciar sesión, pasaremos a un flujo independiente en donde podremos visualizar la calendarización de citas que se tiene, acceder a la generaciónd enuna cita, además de poder acceder a nuestro perfil de paciente y, una vez más, a la llamada de emergencia
-<img src="https://photos.app.goo.gl/m9aJr7zXmT4m16t26"/>
+En caso de iniciar sesión, pasaremos a un flujo independiente en donde podremos visualizar la calendarización de citas que se tiene, acceder a la generaciónd enuna cita, además de poder acceder a nuestro perfil de paciente y, una vez más, a la llamada de emergencia.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/Screenshot_20211203-105016.png" width="250px"/>
+</div>
 
 
-Si se accede a la agendación de cita con un perfil de paciente iniciado, únicamente nos solicitará el área de atención, la fecha y la hora; esto debido a que los demás datos ya se encuentran almacenados en el propio perfil
-<img src="https://photos.app.goo.gl/eRhVbiQmTFipn8oD7"/>
+Si se accede a la agendación de cita con un perfil de paciente iniciado, únicamente nos solicitará el área de atención, la fecha y la hora; esto debido a que los demás datos ya se encuentran almacenados en el propio perfil.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/Screenshot_20211203-105022.png" width="250px"/>
+</div>
 
 
-Si se accede al perfil podremos ver un resumen de la información almacenada del paciente, así como cerrar la sesión qu hemos iniciado.
-<img src="https://photos.app.goo.gl/sCvMtMFWgJiaXniy7"/>
+Si se accede al perfil podremos ver un resumen de la información almacenada del paciente, así como cerrar la sesión qu hemos iniciado.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/Screenshot_20211203-105031.png" width="250px"/>
+</div>
 
 
 ## Propuesta de valor 💻
@@ -44,15 +54,22 @@ Si se accede al perfil podremos ver un resumen de la información almacenada del
 ---
 ## Mockup para futuras actualizaciones
 
-Perfil más avanzado del paciente.
-<img src="https://photos.app.goo.gl/zhk88R3z5aPdQHko6"/>
+Perfil más avanzado del paciente.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/image.jpg" width="250px"/>
+</div>
 
 
-Acceso al perfil de tu doctor de cabecera.
-<img src="https://photos.app.goo.gl/ZbEUJyeh7DfeiWMe6"/>
+Acceso al perfil de tu doctor de cabecera.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/image(1).jpg" width="250px"/>
+</div>
 
-Versión propia del doctor para gestionar las citas que tiene programadas con sus pacientes.
-<img src="https://photos.app.goo.gl/qj3mmKHkmV5RDmLS7"/>
+
+Versión propia del doctor para gestionar las citas que tiene programadas con sus pacientes.</br>
+<div align="center">
+  <img src="app/src/main/res/drawable-v24/image(2).jpg" width="250px"/>
+</div>
 
 
 Estos cambios se planean implementar en un futuro para que cada doctor pueda observar los perfiles detallados de los pacientes que tengan agendada una cita con él, eliminando la necesidad de realizar preguntas repetitivas en cada consulta, pues el expediente clínico estaría almacenado en el perfil del paciente. De igual forma, cada paciente podrá acceder al perfil de su doctor de cabecera en caso de que desee realizarle una consulta de forma virtual por mensajería o llamada telefónica.
