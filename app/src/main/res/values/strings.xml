@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Hospital Covadonga</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  Textos generales  -->
+    <string name="no_user_citation">Usuario\nAnónimo</string>
+    <string name="with_user_citation">Iniciar\nSesión</string>
+
+    <string name="register_title">Registrar\nNuevo Usuario</string>
+    <string name="keep_login">Mantener sesión iniciada</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="or">ó</string>
+    <string name="mail">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="password_repeat">Repetir Contraseña</string>
+    <string name="no_account_yet">¿Aún no estás registrado?</string>
+    <string name="accept_terms">Acepto la <i>Política de Privacidad</i></string>
+    <string name="register">Registrarse</string>
+
+    <string name="personal_data">Datos Personales</string>
+    <string name="user_name">Nombre</string>
+    <string name="user_curp">CURP</string>
+    <string name="user_cellphone">Número Celular</string>
+    <string name="user_phone">Número de Casa</string>
+    <string name="user_direction">Dirección</string>
+
+    <string name="citation_data">Datos de la Cita</string>
+    <string name="citation_area">Área</string>
+    <string name="citation_hour">Hora</string>
+
+    <string name="create_citation">Agendar Cita</string>
+    <string name="confirm">Confirmar</string>
+    <string name="edit">Editar</string>
+    <string name="select">Seleccionar</string>
+
+    <!--  Textos para Dialog  -->
+    <string name="resume_title">Resumen de Cita</string>
+    <string name="resume_message">
+        \nFecha: %1$s. %2$s\n\n
+        Doctor: %3$s. %4$s\n\n
+        Paciente: %5$s\n\n
+        Área: %6$s\n\n
+        <b>Puede Tomar Captura De Este Comprobante</b>
+    </string>
+    <string name="wrong_email">Correo incorrecto</string>
+    <string name="wrong_email_description">El correo electrónico proporcionado no coincide con ninguna cuenta.</string>
+    <string name="wrong_password">Contraseña incorrecta</string>
+    <string name="wrong_password_description">La contraseña proporcionada no coincide con el correo %1$s.</string>
+    <string name="wrong_user_data">Datos incorrectos</string>
+    <string name="wrong_user_data_description">Los datos de inicio de sesión proporcionados no coinciden con ninguna cuenta.</string>
+    <string name="empty_email">Correo vacío</string>
+    <string name="empty_email_description">Debe ingresar un correo electrónico.</string>
+    <string name="empty_curp_description">Debe ingresar un CURP válido.</string>
+    <string name="empty_password">Contraseña vacía</string>
+    <string name="empty_password_description">Debe establecer una contraseña.</string>
+    <string name="unequal_password">Contraseñas diferentes</string>
+    <string name="unequal_password_description">Las contraseñas deben coincidir.</string>
+    <string name="no_user_found">Usuario no encontrado.</string>
+    <string name="no_user_found_description">Ha ocurrido un error al iniciar sesión. Inténtelo de nuevo más tarde.</string>
+    <string name="signin_error">Usuario no registrado</string>
+    <string name="signin_error_description">Ha ocurrido un error al registrar al usuario. Inténtelo de nuevo más tarde.</string>
+</resources>
