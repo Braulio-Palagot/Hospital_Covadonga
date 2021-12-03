@@ -45,9 +45,9 @@ Si se accede al perfil podremos ver un resumen de la información almacenada del
 
 ## Propuesta de valor 💻
 <li>
-  <ul>Atención personalizada.![image](https://user-images.githubusercontent.com/94812986/144649184-afb7b6a7-134e-4cc1-a101-6dc7f0adb368.png)</ul>
-  <ul>Autogestión de la salud del paciente.![image](https://user-images.githubusercontent.com/94812986/144649103-9f4042b0-0a9a-4b5b-aba2-0edfbdf7de83.png)</ul>
-  <ul>Seguimiento por parte del paciente.![image](https://user-images.githubusercontent.com/94812986/144648994-3ebc9759-1356-4e10-b7d9-545508b03c7e.png)</ul>
+  <ul>Atención personalizada.</ul>
+  <ul>Autogestión de la salud del paciente.</ul>
+  <ul>Seguimiento por parte del paciente.</ul>
 </li>
 
 
